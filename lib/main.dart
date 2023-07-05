@@ -28,9 +28,10 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: Colors.blue,
         appBar: AppBar(
           title: Center(child: Text("Rotate The Dice")),
+          backgroundColor: Colors.lightBlue,
         ),
         body: SafeArea(
           child: Center(
